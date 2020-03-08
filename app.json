@@ -1,0 +1,26 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/member/member",
+    "pages/payment/index",
+    "pages/openVip/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "plugins": {
+    "hello-plugin": {
+      "version": "dev-86180585ce3ca1edd7e48dcd08ae8b27",
+      "provider": "wx36cad3de2ae4b1b7"
+    }
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "navigateToMiniProgramAppIdList": [
+    "wxeb490c6f9b154ef9",
+    "wx1280c1a22a7ff987"
+  ]
+}

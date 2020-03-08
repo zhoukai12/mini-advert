@@ -1,0 +1,46 @@
+<!--pages/openVip/index.wxml-->
+<view class="openVip">
+  <view class="vipCard">
+    <view class="titleInfo">
+      <image src='https://iph.href.lu/85x85'></image>
+      <view class="textBox">
+        <view class="h1">品牌名称</view>
+        <view class="h2">宣传标语</view>
+      </view>
+    </view>
+    <view class="cardNum">4659 2244 14</view>
+    <view class="QRcode">
+      <image src='https://iph.href.lu/46x44'></image>
+    </view>
+  </view>
+  <view class="dataInfo">
+    <view class="item">
+      <view class="name">昵称</view>
+      <view class="desc">X**X</view>
+    </view>
+    <view class="item">
+      <view class="name">手机号</view>
+      <view class="desc">180****2938</view>
+    </view>
+    <view class="item">
+      <view class="name">生日</view>
+      <view class="desc">1998/9/9</view>
+    </view>
+    <view class="item">
+      <view class="name">性别</view>
+      <view class="desc">女</view>
+    </view>
+  </view>
+  <view class="choiceBox">
+    <view class="label">
+      <image src='https://iph.href.lu/33x33'></image>
+    </view>
+    <view class="text">
+      我已阅读
+      <text>XXXXXXXXXXX</text>
+    </view>
+  </view>
+  <view class="openBtn">
+    确认开卡
+  </view>
+</view>

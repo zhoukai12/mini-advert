@@ -1,0 +1,2 @@
+/**app.wxss**/
+view,page,text{box-sizing: border-box}

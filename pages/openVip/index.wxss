@@ -1,0 +1,167 @@
+/* pages/openVip/index.wxss */
+
+.openVip {
+  width: 100%;
+  min-height: 100vh;
+  background: #fff;
+  padding: 40rpx 62.5rpx 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.vipCard {
+  width: 100%;
+  height: 350rpx;
+  background: #1aad19;
+  border-radius: 29rpx;
+  padding: 40rpx 39rpx 31rpx;
+  position: relative;
+}
+
+.vipCard .titleInfo {
+  width: 100%;
+  height: 85rpx;
+  display: flex;
+}
+
+.vipCard .titleInfo image {
+  display: block;
+  width: 85rpx;
+  height: 85rpx;
+  border-radius: 50%;
+}
+
+.vipCard .titleInfo .textBox {
+  margin-left: 20rpx;
+  width: 376rpx;
+}
+
+.titleInfo .textBox .h1 {
+  width: 100%;
+  height: 46rpx;
+  line-height: 46rpx;
+  color: #fff;
+  font-size: 33rpx;
+}
+
+.titleInfo .textBox .h2 {
+  height: 35rpx;
+  width: 100%;
+  line-height: 35rpx;
+  color: #fff;
+  font-size: 25rpx;
+}
+
+.vipCard .cardNum {
+  width: 100%;
+  height: 52rpx;
+  line-height: 52rpx;
+  color: #fff;
+  font-size: 38rpx;
+  margin-top: 148rpx;
+}
+
+.vipCard .QRcode {
+  width: 46rpx;
+  height: 44rpx;
+  position: absolute;
+  top: 52rpx;
+  right: 42rpx;
+}
+
+.vipCard .QRcode image {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.dataInfo {
+  width: 563rpx;
+  margin-top: 10rpx;
+}
+
+.dataInfo .item {
+  width: 100%;
+  height: 110rpx;
+  border-bottom: 2rpx solid #c6cad8;
+  padding: 42rpx 0 24rpx 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dataInfo .item .name {
+  flex: 1;
+  height: 42rpx;
+  min-width: 0;
+  line-height: 42rpx;
+  color: #8d92a3;
+  font-size: 29rpx;
+}
+
+.dataInfo .item .desc {
+  flex: 1;
+  min-width: 0;
+  height: 42rpx;
+  line-height: 42rpx;
+  color: #000;
+  font-size: 29rpx;
+  text-align: right;
+}
+
+.choiceBox {
+  width: 563rpx;
+  margin-top: 77rpx;
+  display: flex;
+  height: 50rpx;
+  align-items: center;
+  justify-content: center;
+}
+
+.choiceBox .label {
+  width: 50rpx;
+  height: 50rpx;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 17rpx;
+}
+
+.choiceBox .label image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 4rpx;
+}
+
+.choiceBox .text {
+  display: inline-block;
+  height: 50rpx;
+  line-height: 50rpx;
+  color: #2a303c;
+  font-size: 25rpx;
+}
+
+.choiceBox .text text {
+  color: #1aad19;
+  margin-left: 8rpx;
+  display: inline-block;
+  height: 50rpx;
+  line-height: 50rpx;
+}
+
+.openBtn {
+  width: 646rpx;
+  height: 123rpx;
+  text-align: center;
+  line-height: 123rpx;
+  background: linear-gradient(135deg, rgba(112, 245, 112, 1) 0%, rgba(40, 198, 80, 1) 100%);
+  box-shadow: 0px 6rpx 31rpx 0px rgba(213, 208, 203, 0.28);
+  border-radius: 8rpx;
+  margin-top: 33rpx;
+  color: #FFFFFF;
+  font-size: 42rpx;
+  font-weight: 600;
+}

@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "widget-member-card":"/components/member/index"
+  }
+}
